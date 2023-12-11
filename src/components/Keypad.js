@@ -5,11 +5,11 @@ import React from "react"
 
 function Keypad (){
     return (
-        <div>
+        <>
             <form>
                 <input onChange={()=>console.log('Entering password...')} type='password'></input>
             </form>
-        </div>
+        </>
     )
 }
 
